@@ -2,7 +2,7 @@
 
 *Visualizing patient data with interactive charts.*
 
-The Coalition Project is a front-end test project designed to display patient data through interactive charts. Tasked with creating a functional webpage based on provided UI and API, this project demonstrates the ability to integrate and visualize data effectively. Built with modern technologies, it showcases data handling and user interface skills.
+The Coalition Project is a front-end test project that displays patient data through interactive charts. Tasked with creating a functional webpage based on provided UI and API, this project demonstrates the ability to integrate and visualize data effectively. Built with modern technologies, it showcases data-handling and UI skills.
 
 ## 🌟 Features
 
@@ -27,7 +27,7 @@ The Coalition Project is a front-end test project designed to display patient da
 
 ## 🚀 Deployment
 
-The project is live and accessible at [Coalition Project](https://coalitionprojecttest.netlify.app/patients/Jessica%20Taylor).
+The project is live and accessible at [Coalition Project](https://coalition-indol.vercel.app).
 
 ## 🔗 GitHub Repository
 
@@ -42,4 +42,4 @@ The source code for Coalition Project is available on GitHub: [Coalition Project
 
 ## Contributor
 
-- Victor Victoria O.
+- James Jegede .
