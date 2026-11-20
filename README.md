@@ -1,4 +1,4 @@
-# Coalition Project
+ # Coalition Project
 
 *Visualizing patient data with interactive charts.*
 
