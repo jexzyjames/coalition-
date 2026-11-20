@@ -10,8 +10,7 @@ const PatientList = ({ patientsdata, onCardClick }) => {
   }
 
   const patients = patientsdata;
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const [activeCard, setActiveCard] = useState(0);
+  const [activeCard, setActiveCard] = useState(3);
 
   const handleCardClick = (index) => {
     setActiveCard(index);

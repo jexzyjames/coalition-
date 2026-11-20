@@ -13,14 +13,14 @@ const MainSection = () => {
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [presentPatientIndex, setPresentPatientIndex] = useState(0);
+  const [presentPatientIndex, setPresentPatientIndex] = useState(3);
   const [patientData, setPatientData] = useState(null);
 
   // ENCYPTING THE KEY
   const username = "coalition";
   const password = "skills-test";
   const credentials = `${username}:${password}`;
-  const encodedCredentials = btoa(credentials);
+  const Credentials = btoa(credentials);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -29,9 +29,9 @@ const MainSection = () => {
           "https://fedskillstest.coalitiontechnologies.workers.dev",
           {
             headers: {
-              Authorization: `Basic ${encodedCredentials}`,
+              Authorization: `Basic ${Credentials}`,
             },
-            // mode: "no-cors",
+            
           }
         );
 
@@ -51,7 +51,7 @@ const MainSection = () => {
     };
 
     fetchData();
-  }, [encodedCredentials, presentPatientIndex]);
+  }, [Credentials, presentPatientIndex]);
 
   const handleCardClick = (index) => {
     setPresentPatientIndex(index);

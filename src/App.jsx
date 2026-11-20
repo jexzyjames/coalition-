@@ -1,5 +1,4 @@
 import "./App.css";
-// import MainSection from "./components/MainSection.jsx";
 import Navbar from "./components/Navbar.jsx";
 import AppRouter from "./AppRouter";
 
@@ -8,7 +7,6 @@ function App() {
     <div className='m-4'>
       <Navbar />
       <AppRouter />
-      {/* <MainSection /> */}
     </div>
   );
 }

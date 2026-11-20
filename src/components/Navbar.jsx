@@ -28,10 +28,12 @@ const Navbar = () => {
         >
           <li>
             <Link
-              href='/'
+              href='/patients/Jessica'
               aria-label='Home'
               _hover={{ textDecoration: "none" }}
             >
+            
+            
               <Flex align='center'>
                 <img src={HomeIcon} alt='Icon for the Overview page' />
                 <span className='text-sm font-bold ml-2'>Overview</span>
@@ -40,7 +42,7 @@ const Navbar = () => {
           </li>
           <li className=' rounded-full px-4 py-2'>
             <Link
-              href='/patients/Emily'
+              href='/patients/Jessica'
               aria-label='Patients'
               _hover={{ textDecoration: "none" }}
             >
@@ -52,19 +54,19 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href='/schedule'
+              href='/patients/Jessica'
               aria-label='Schedule'
               _hover={{ textDecoration: "none" }}
             >
               <Flex align='center'>
                 <img src={CalenderIcon} alt='Icon for the Schedule page' />
-                <span className='text-sm font-bold ml-2'>Schedule</span>
+                <span className='text-sm font-bold cursor-pointer ml-2'>Schedule</span>
               </Flex>
             </Link>
           </li>
           <li>
             <Link
-              href='/message'
+              href='/patients/Jessica'
               aria-label='Message'
               _hover={{ textDecoration: "none" }}
             >
@@ -76,7 +78,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href='/transactions'
+              href='/patients/Jessica'
               aria-label='Transactions'
               _hover={{ textDecoration: "none" }}
             >
